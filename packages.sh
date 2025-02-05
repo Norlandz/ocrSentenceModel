@@ -36,5 +36,5 @@ pip install pytest
 
 # fastapi run ./src/main.py
 # uvicorn main:app --host 0.0.0.0 --port 80
-# uvicorn main:app --host 127.0.0.1 --port 8000
-uvicorn src.main:app --host 127.0.0.1 --port 8000
+uvicorn main:app --host 127.0.0.1 --port 8000
+# uvicorn src.main:app --host 127.0.0.1 --port 8000
